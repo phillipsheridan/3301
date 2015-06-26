@@ -1,0 +1,34 @@
+ul.a {
+    list-style-type: square;
+  }
+  ul.b {
+    list-style-type: armenian;
+  }
+  ol.a {
+    list-style-type: lower-latin;
+  }
+  a {
+    position: relative;
+  }
+  a:active {
+    top: 5px;
+  }
+  a:link {
+    color:red;
+  }
+  a:visited {
+    color: yellow;
+    
+  }
+  table {
+    
+  }
+  body {
+    color: white;
+    background-color: black;
+    font-family: AppleGothic, Helvetica, Times;
+  }
+
+  img {
+    float: right;
+  }

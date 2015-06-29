@@ -216,20 +216,26 @@ function test_input($data) {
 			</tr>
 			<tr>
 				<td>Date Joined: </td>
-				<td><input type = "text" name = "dateJoined" value = "<?php echo $dateJoined;?>"> <span class="error">*(YYYY-MM-DD) <?php echo $dateJoinedErr;?></span>
+				<td><input type = "text" name = "dateJoined" value = "<?php echo $dateJoined;?>"><span class = "error">*(YYYY-MM-DD) <?php echo $dateJoinedErr;?></span>
 			
 		</td>
 			</tr>
 			<tr>
 				<td>Grandfathered?: </td>
-				<td><input type = "text" name = "grandfathered" value = "<?php echo $grandfathered;?>"> <span class="error">* <?php echo $grandfatheredErr;?></span>
+				<td><select name = "grandfathered">
+  <option value="true">true</option>
+  <option value="false">false</option>
+</select> <span class="error">* <?php echo $grandfatheredErr;?></span>
 			
 
 		</td>
 			</tr>
             <tr>
                 <td>Paid?: </td>
-                <td><input type = "text" name = "paid" value = "<?php echo $paid;?>"> <span class="error">* <?php echo $paidErr;?></span>
+                <td><select name = "paid">
+  <option value="true">true</option>
+  <option value="false">false</option>
+</select> <span class="error">* <?php echo $paidErr;?></span>
             
 
         </td>

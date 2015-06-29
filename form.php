@@ -204,7 +204,7 @@ function test_input($data) {
 			<tr>
 				<td>Email: </td>
 				<td>
-			<input type = "text" name = "email" value = "<?php echo $email;?>"> <span class="error">* <?php echo $emailErr;?></span>
+			<input type = "text" name = "email" value = "<?php echo $email;?>"> <span class="error">*example: abc@abc.com <?php echo $emailErr;?></span>
 		</td>
 			</tr>
 			
@@ -216,7 +216,7 @@ function test_input($data) {
 			</tr>
 			<tr>
 				<td>Date Joined: </td>
-				<td><input type = "text" name = "dateJoined" value = "<?php echo $dateJoined;?>"><span class = "error">*(YYYY-MM-DD) <?php echo $dateJoinedErr;?></span>
+				<td><input type = "text" name = "dateJoined" value = "<?php echo $dateJoined;?>"><span class = "error">*example: (YYYY-MM-DD) <?php echo $dateJoinedErr;?></span>
 			
 		</td>
 			</tr>
